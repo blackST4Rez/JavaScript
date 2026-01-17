@@ -17,15 +17,27 @@ let age = 23
 let isLoggedIn = true // boolean can be true or false only
 
 // number --> 2 to power 53
-//bigint 
-//string --> ""
-//boolean --> true/false
-//null --> standalone value ( symbolizes the nothingness )
-//undefined --> value is not assigned but the variable is defined 
-//symbol --> unique
+// bigint 
+// string --> ""
+// boolean --> true/false
+// null --> standalone value ( symbolizes the nothingness )
+// undefined --> value is not assigned but the variable is defined 
+// symbol --> unique
 
 //object
 
 console.log(typeof undefined); // undefined is the answer
 console.log(typeof null); // object is the answer
+
+/*
+
+// Primitive(Non-Referenced) & Non-Primitive(Referenced)
+
+----Non-Referenced----
+// 7 Types : String, Number, Boolean, null, undefined, symbol, BigInt
+
+----Referenced----
+// Array, Objects, Functions
+// Referenced Data types is always an object
+*/
 
