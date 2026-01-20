@@ -38,7 +38,35 @@
 // const message = loginUserMessage('Raka');     
 // console.log(message);
 
+// Cart functionality with the use of rest operator 
+// function calculateCartPrice(...price){
+//     return price;
+// }
+// console.log(calculateCartPrice(200, 400, 600));
 
+// Fuuntiom with object as parameter
+// const user = {
+//     username:'RakaMaharjan',
+//     price: 199,
+// };
 
+// function handleObject(anyObject){
+//     console.log(`Username is ${anyObject.username} and price is ${anyObject.price}.`);
+    
+// }
 
+// handleObject(user);
+// to pass object as an argument
+// handleObject({
+//     username: 'Yi Lon Mah',
+//     age: 99,
+// })
 
+// Function with an array as parameter
+// const price = [100, 200, 300, 400, 500];
+// function returnSecondValue(getArray){
+//     return getArray[3];
+// }
+// // Arguments can be passed as array in such a way.
+// console.log(returnSecondValue(price));
+// console.log(returnSecondValue([100, 200, 300, 400, 500]));
