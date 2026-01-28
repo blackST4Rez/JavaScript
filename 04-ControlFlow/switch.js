@@ -1,3 +1,4 @@
+//Switch Case Javascript
 // switch (key) {
 //     case value:
         

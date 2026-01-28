@@ -1,3 +1,4 @@
+// Truthy Javascript
 const userEmail = []
 
 if (userEmail) {
