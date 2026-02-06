@@ -51,10 +51,12 @@ Master JavaScript from fundamentals to advanced topics for 2025–2026
 ```bash
 # 1. Clone the repo
 git clone https://github.com/blackST4Rez/JavaScript.git
-cd YOUR_REPO_NAME
+cd JavaScript
 
 # 2. Open in your favorite editor (VS Code recommended)
 code .
 
 # 3. Open index.html in browser (most folders have their own index.html)
 #    or use Live Server extension
+
+Made with ❤️‍🔥 by blackST4Rez
