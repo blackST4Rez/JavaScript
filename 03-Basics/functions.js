@@ -23,7 +23,7 @@
 // const res = addTwoNumbers(3,5);
 // console.log(`Result is ${res}.`);
 
-// funtion with if satatements
+// function with if statements
 //----> here in paramete if we give sam it is a default value meaning the function is never undefined
 //----> if sam was not given in parameter then if statement is executed 
 //---->without if statement and default parameter value Raka is printed cause it is passed in the arguments
