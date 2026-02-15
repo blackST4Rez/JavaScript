@@ -23,7 +23,7 @@ new Promise(function(resolve, reject){
 
 const promiseThree = new Promise(function(resolve, reject){
     setTimeout(function(){
-        resolve({username: "Chai", email: "chai@example.com"})
+        resolve({username: "Raka", email: "Raka@example.com"})
     }, 1000)
 })
 
@@ -35,7 +35,7 @@ const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
         let error = true
         if (!error) {
-            resolve({username: "hitesh", password: "123"})
+            resolve({username: "Raka", password: "raka1234"})
         } else {
             reject('ERROR: Something went wrong')
         }
@@ -46,10 +46,13 @@ const promiseFour = new Promise(function(resolve, reject){
  .then((user) => {
     console.log(user);
     return user.username
+
 }).then((username) => {
     console.log(username);
+
 }).catch(function(error){
     console.log(error);
+
 }).finally(() => console.log("The promise is either resolved or rejected"))
 
 
@@ -89,7 +92,7 @@ consumePromiseFive()
 
 //getAllUsers()
 
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/blackST4Rez')
 .then((response) => {
     return response.json()
 })
