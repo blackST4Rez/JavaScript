@@ -16,28 +16,30 @@
 
         <button id="pfp" >Profile</button>
 
+        <div id="avatar">
+            <!-- Github profile Will appear here -->
+        </div>
+
     </body>
 
     <script>
 
-        const getImage = function(){
-            const imgUrl = 'https://api.github.com/users/blackST4Rez'
-            const xhr = new XMLHttpRequest();
-            xhr.open('GET', imgUrl)
-            xhr.onreadystatechange = function(){
-            console.log(xhr.readyState);
-            if (xhr.readyState === 4) {
-                const data = JSON.parse(this.picture)
-                console.log(typeof data);
-                console.log(data.followers);
-            }
-        }
-        xhr.send();
+        const getImg = function() {   
+
+             const ava = 'https://avatars.githubusercontent.com/u/94746134?v=4'
+            addImg.innerHTML = 
+            `
+            <h2> Your Github Avatar is </h2>
+            <img src="${ava}">
+            `
+
+            console.log(`Your Github avatar is ${ava}`)
         }
 
-        const profile = document.getElementById('pfp').addEventListener('click',getImage)
+        const addImg = document.getElementById('avatar');
+        const changeImg = document.querySelector('#pfp').addEventListener('click',getImg);
 
-        const requestUrl = 'https://api.github.com/users/hiteshchoudhary'
+        const requestUrl = 'https://api.github.com/users/blackST4Rez'
         const xhr = new XMLHttpRequest();
         xhr.open('GET', requestUrl)
         xhr.onreadystatechange = function(){
