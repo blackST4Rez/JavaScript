@@ -3,7 +3,7 @@
 # ☕ JavaScript 2026  
 **The Modern JavaScript**
 
-Master JavaScript from fundamentals to advanced topics for 2025–2026
+JavaScript Recap
 
 <br>
 
