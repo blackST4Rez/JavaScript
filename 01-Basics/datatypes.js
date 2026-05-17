@@ -43,11 +43,11 @@
 
 /* 
 
-When primtive data types stack is used.
+When primtive data types ,stack is used.
 --> you get copy of the declared variable.   
 
 
-when non-primitive data types heap is used.
+when non-primitive data types , heap is used.
 --> you get reference of the declared variable.
 
 
