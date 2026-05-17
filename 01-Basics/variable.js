@@ -14,6 +14,8 @@ accountCity = "Chitwan"
 Use const and let more
 Prefer not use var 
 Cause of issue in block scope and functional scope
+
+when variable is decalred with no value it is undefined 
 */
 
 console.log(accountID);
