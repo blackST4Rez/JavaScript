@@ -17,5 +17,5 @@ Cause of issue in block scope and functional scope
 */
 
 console.log(accountID);
-console.table([accountID,accountEmail,accountPassword,accountCity,accountState]);
+console.table([accountID, accountEmail, accountPassword, accountCity, accountState]);
 
