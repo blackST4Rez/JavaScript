@@ -81,13 +81,15 @@ console.log(typeof stringNumber);
 
 // num1 = num2 = num3 = 2 + 2
 
+/*
 let gameCounter = 100
 ++gameCounter;
 gameCounter++;
 
 console.log(gameCounter);
+*/
 
-
+/*
 // console.log(2 > 1);
 // console.log(2 < 1);
 // console.log(2 >= 1);
@@ -97,10 +99,25 @@ console.log(gameCounter);
 
 // console.log("2">1);
 // console.log("02">1);
+*/
 
-// console.log(null > 0);
-// console.log(null == 0);
-// console.log(null >= 0);
+/*
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
+console.log(undefined <= 0);
+console.log(undefined >= 0);
+
+here in equality check, > < >= <= it works differently.
+it converts null to a number, treating it as a 0.
+thats why null > 0 is false and null >= 0 is true.
+*/
+
+
 
 
 
