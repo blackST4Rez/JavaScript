@@ -1,4 +1,8 @@
-// let score = "raka"
+// let score = "33abc"
+// let score = null
+// let score = undefined
+// let score = true
+// let score = 'raka'
 
 // console.log(typeof score);
 
@@ -15,33 +19,34 @@ true -> 1
 false -> 0
 null -> 0
 undefined -> NaN
-
 */
 
+/*
+// let isLoggedIn = 1
 // let isLoggedIn = "raka"
+// let isLoggedIn = ""
 
-// let booleanisLoggedIn = Boolean(isLoggedIn)
+let booleanisLoggedIn = Boolean(isLoggedIn)
 
-// console.log(isLoggedIn);
-// console.log(booleanisLoggedIn);
+console.log(isLoggedIn);
+console.log(booleanisLoggedIn);
 
-/*    
-
-For Number Conversion
+// For Number Conversion
 // 1 -> true
 // 0 -> false
 // "raka" -> true
 // "" -> false
-
 */
 
-// let someNumber = 33
+/* 
+let someNumber = 33
 
-// let stringNumber = String(someNumber)
+let stringNumber = String(someNumber)
 
-// console.log(someNumber);
-// console.log(stringNumber);
-// console.log(typeof stringNumber);
+console.log(someNumber);
+console.log(stringNumber);
+console.log(typeof stringNumber); 
+*/
 
 /*------------ Operation --------------*/
 
