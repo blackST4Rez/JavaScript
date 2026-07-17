@@ -48,11 +48,10 @@ console.log(stringNumber);
 console.log(typeof stringNumber); 
 */
 
-/*------------ Operation --------------*/
+// ------------ Operation --------------
 
 // let val = 3
 // let negVal = -val
-
 // console.log(negVal);
 
 // console.log(2+2);
@@ -75,17 +74,18 @@ console.log(typeof stringNumber);
 // console.log("1"+2+2);
 // console.log(1+2+"2");
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true); bad readability code
+// console.log(+""); bad readability code
 
 // let num1, num2, num3;
 
 // num1 = num2 = num3 = 2 + 2
 
-// let gameCounter = 100
-// ++gameCounter;
+let gameCounter = 100
+++gameCounter;
+gameCounter++;
 
-// console.log(gameCounter);
+console.log(gameCounter);
 
 
 // console.log(2 > 1);
