@@ -49,20 +49,15 @@ console.log(typeof null); // object is the answer
 */
 
 /* 
-
 When primtive data types ,stack is used.
 --> you get copy of the declared variable.   
 
-
 when non-primitive data types , heap is used.
 --> you get reference of the declared variable.
-
-
-
 */
 
 /*
-// Stack Example        
+--Stack Example        
 let firstName = "Raka";
 let secondName = firstName;   // copy of firstName is stored in secondName
 
@@ -71,7 +66,7 @@ secondName = "Hari";
 console.log(firstName);
 console.log(secondName);  // firstName is not changed   
 
-// Heap Example
+--Heap Example
 let userOne = {
     email : "user1234@gmail.com",
     id : "1234",
@@ -83,7 +78,6 @@ userTwo.email = "abcd1234@gmail.com";  // changing email in userTwo
 
 console.log(userOne.email);
 console.log(userTwo.email);
-
 */
 
 
