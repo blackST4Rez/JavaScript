@@ -32,7 +32,7 @@ console.log(`Result is ${res}.`);
 */
 
 /*
-function with if statements
+-- Function with if statements
 ---> here in parameter if we give sam it is a default value meaning the function is never undefined
 ---> if sam was not given in parameter then if statement is executed 
 --->without if statement and default parameter value Raka is printed cause it is passed in the argumen
