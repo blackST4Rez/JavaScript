@@ -102,9 +102,9 @@ const user = {
 //     },
 // ]
 
-// console.log(Object.keys(spotifyUser)); // gives the keys
-// console.log(Object.values(spotifyUser));// gives the values
-// console.log(Object.entries(spotifyUser));// gives the key value pairs
+// console.log(Object.keys(spotifyUser)); -- gives the keys of the object in an array
+// console.log(Object.values(spotifyUser)); -- gives the values of the object in an array
+// console.log(Object.entries(spotifyUser)); -- gives the key value pairs of the object in an array
 
 // console.log(spotifyUser.hasOwnProperty('premium')); // checks the property
 
