@@ -1,29 +1,35 @@
-// var c = 200;
-// let a = 300;
+/* 
+var c = 200;
+let a = 300
 
-// if statement is block scope
-// if(true){
-//     let a = 10
-//     const b = 20;
-// }
+if statement is block scope
 
-//---------Outside the block scope is Global scope--------
+if(true){
+    let a = 10
+    const b = 20;
+}
 
-// console.log(a);
-// console.log(b);
-// console.log(c); 
+---------Outside the block scope is Global scope--------
 
-// function one (){
-//     const username = 'Raka';
+console.log(a);
+console.log(b);
+console.log(c); 
+*/
 
-//     function two(){
-//         const website = 'rakamaharjan.com';
-//         console.log(username);   
-    // }
-    // console.log(website);
-    // two()
-// }
-// one()
+// Variable declared inside block scope cannot be accesed outside.
+// Variable declared outside (global scope) can be accessed inside the block scope.
+
+/*
+function one (){
+    const username = 'Raka
+    function two(){
+        const website = 'rakamaharjan.com';
+        console.log(username);
+    }  
+        console.log(website) two()
+}
+one()
+*/
 
 // if(true){
 //     const username = 'RakaMaharjan';
