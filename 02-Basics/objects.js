@@ -1,20 +1,20 @@
 // Singleton
-// Object.create() 
+// Object.create() -- object creation via constructor
 
-// Object Literals
+//Object Literals
 
-// const sym = Symbol("key1");
+const sym = Symbol("key1");
 
-// const user = {
-//     name: 'Raka',
-//     'fullname': 'Raka Maharjan',   
-//     age: 20,
-//     [sym]: "Key1",
-//     address: "Kathmandu",
-//     email: "raka@example.com",
-//     isLoggedIn: true,
-//     lastLoginDays: ['Monday', 'Friday']     
-// }
+const user = {
+    name: 'Raka',
+    'fullname': 'Raka Maharjan', // Never accessible with user. syntax
+    age: 20,
+    [sym]: "Key1",
+    address: "Kathmandu",
+    email: "raka@example.com",
+    isLoggedIn: true,
+    lastLoginDays: ['Monday', 'Friday']     
+}
 
 // console.log(user.name);
 // console.log(user.age);
@@ -26,6 +26,7 @@
 
 
 // console.log(user["name"]);
+// console.log(user["fullname"]);
 // console.log(user["age"]);
 // console.log(user["address"]);
 // console.log(user["email"]);
@@ -33,7 +34,7 @@
 // console.log(user["lastLoginDays"]);      
 // console.log(user[sym]);
 
-// Freezing the object      
+// Freezing the object -- so that other cant change the value
 // user.email = 'raka@maharjan.com'
 // Object.freeze(user);
 // user.email = 'raka@hello.com'
