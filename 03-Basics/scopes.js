@@ -21,35 +21,42 @@ console.log(c);
 
 /*
 function one (){
-    const username = 'Raka
-    function two(){
-        const website = 'rakamaharjan.com';
-        console.log(username);
-    }  
-        console.log(website) two()
+    const username = 'Raka'
+
+        function two(){
+            const website = 'rakamaharjan.com';
+            console.log(username);
+        }  
+    console.log(website);
+    two();
 }
-one()
+one();
 */
 
-// if(true){
-//     const username = 'RakaMaharjan';
-//     if(username === 'RakaMaharjan'){
-//         const website = 'rakamaharjan.com'; 
-//         console.log(`Username & website is ${username} and ${website}.`);
-//     }
-    // console.log(website);
-// }
-// console.log(username);
+/*
+if(true){
+    const username = 'RakaMaharjan';
+        if(username === 'RakaMaharjan'){
+            const website = 'rakamaharjan.com'; 
+            console.log(`Username & website is ${username} and ${website}.`);
+    }
+    // console.log(website); -- website can only be accessed inside of the second if statement.
+    // console.log(username) -- website can only be accessed inside of the second if statement.
+}
+// console.log(username) -- website can only be accessed inside of the first if statement.
+*/
 
-// Concept of Hoisting  
-// console.log(addone(5));   
-// function addone(num){
-//     return num + 1;
-// }
-// // addone(5);   
+/*
+-- Concept of hoisting
+console.log(addone(5));   
+function addone(num){
+    return num + 1;
+}
+// addone(5);  
 
+console.log(addtwo(5));
+const addtwo = function(num){
+    return num + 2; 
+}
 // addtwo(5);
-// const addtwo = function(num){
-//     return num + 2; 
-// }
-// addtwo(5);
+*/
