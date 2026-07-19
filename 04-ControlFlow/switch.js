@@ -1,4 +1,5 @@
 //Switch Case Javascript
+// Syntax:
 // switch (key) {
 //     case value:
         
