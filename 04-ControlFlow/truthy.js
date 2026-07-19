@@ -30,7 +30,7 @@ let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
 // val1 = undefined ?? 15
-val1 = null ?? 10 ?? 20 -- returns 10 because right after getting 10 it does not take 20
+// val1 = null ?? 10 ?? 20 -- returns 10 because right after getting 10 it does not take 20
 
 console.log(val1);
 
