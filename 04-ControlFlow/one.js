@@ -1,16 +1,20 @@
-// Control Flow Javascript
-// if
-const isUserloggedIn = true
-const temperature = 41
 
-// if ( temperature === 40 ){
-//     console.log("less than 50");
+// Control Flow Javascript
+
+// 1. if-statements
+
+// const isUserloggedIn = true
+// const username = 'Raka'
+// const temperature = 41
+
+// if ( !isUserloggedIn ){
+//     console.log(`${username} just logged in.`);
 // } else {
-//     console.log("temperature is greater than 50");
+//     console.log(`Login Failed.`);
 // }
 
 // console.log("Execute");
-// <, >, <=, >=, ==, !=, ===, !==
+// Types of equality check : <, >, <=, >=, ==, !=, ===, !==
 
 // const score = 200
 
@@ -26,29 +30,28 @@ const temperature = 41
 
 // if (balance > 500) console.log("test"),console.log("test2");
 
+// 2. elseif-statements
+
 // if (balance < 500) {
 //     console.log("less than 500");
 // } else if (balance < 750) {
 //     console.log("less than 750");
-    
 // } else if (balance < 900) {
 //     console.log("less than 750");
-    
 // } else {
 //     console.log("less than 1200");
-
 // }
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+// const userLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course");
-}
+// if (userLoggedIn && debitCard && 2==3) {
+//     console.log("Allow to buy course");
+// }
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//     console.log("User logged in");
+// }
 
