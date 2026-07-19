@@ -1,4 +1,4 @@
-// For of 
+// -- For of 
 
 // const arr = [1, 2, 3, 4, 5]
 
@@ -12,7 +12,7 @@
     
 // }
 
-// Maps 
+// -- Maps 
 // const map = new Map()
 // map.set('NP',"Nepal")
 // map.set('AUS',"Australia")
