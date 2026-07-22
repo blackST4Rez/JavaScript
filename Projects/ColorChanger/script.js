@@ -1,3 +1,5 @@
+// Simple JS to change bgColor to its div color.
+
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
