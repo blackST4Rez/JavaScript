@@ -1,10 +1,12 @@
+<!-- DOM #4 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chai aur code | DOM</title>
+    <title>DOM #4</title>
 </head>
 <body style="background-color: #212121; color: #fff;">
     <ul class="language">
@@ -12,6 +14,8 @@
     </ul>
 </body>
 <script>
+
+    // -- Basic Way
     function addLanguage(langName){
         const li = document.createElement('li');
         li.innerHTML = `${langName}`
@@ -20,6 +24,7 @@
     addLanguage("python")
     addLanguage("typescript")
 
+    // -- Optimized Way
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
@@ -27,22 +32,21 @@
     }
     addOptiLanguage('golang')
 
-    //Edit
+    // -- Edit
     const secondLang = document.querySelector("li:nth-child(2)")
     console.log(secondLang);
-    //secondLang.innerHTML = "Mojo"
+    secondLang.innerHTML = "Mojo"
     const newli = document.createElement('li')
     newli.textContent = "Mojo"
     secondLang.replaceWith(newli)
 
-    //edit
+    // -- Edit
     const firstLang = document.querySelector("li:first-child")
     firstLang.outerHTML = '<li>TypeScript</li>'
 
-    //remove
+    // -- Remove
     const lastLang = document.querySelector('li:last-child')
     lastLang.remove()
-
 
 </script>
 </html>
