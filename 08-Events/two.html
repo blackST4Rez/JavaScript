@@ -7,21 +7,32 @@
 </head>
 <body>
     <h1> Async </h1>
+    <button id="start">Start</button>
     <button id="stop">Stop</button>
 </body>
+
 <script>
+    
     const sayRaka = function(){
         console.log("Raka");
-    }
-    const changeText = function(){
+    };
+
+    // Declare changeMe in the global scope for the access.
+    const changeMe =  function(){
         document.querySelector('h1').innerHTML = "best JS series"
     }
 
-    const changeMe = setTimeout(changeText, 2000)
+    // Start Async
+    document.querySelector('#start').addEventListener('click', function(e){
+        setTimeout (changeMe, 3000);
+        console.log("STARTED");
+    });
 
+    // Stop Async
     document.querySelector('#stop').addEventListener('click', function(){
-        clearTimeout(changeMe)
-        console.log("STOPPED")
-    })
+        clearTimeout(changeMe);
+        console.log("STOPPED");
+    });
+
 </script>
 </html>
