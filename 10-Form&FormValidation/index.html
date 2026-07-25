@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input, select, textarea{
+            font-size: 35px;
+            font-family: 'Poppins', sans-serif;
+            padding: 20px;
+            margin: 15px;
+        }
+        small{
+            font-size: 25px;
+            color: aquamarine;
+        }
+        form{
+            padding: 25px;
+        }
+        #hide,#hide2,#hide3,#hide4{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <form action=""autocomplete="off" >
+
+        <!-- Username Field -->
+        <input type="text" placeholder="Name" id="username" >
+        
+        <!-- If character is less than 2 -->
+        <div id="hide">
+            <br><br>
+            <small>Your name should be more than 2 character</small>
+        </div>
+        
+        <!-- If charracter is more than 20 -->
+        <div id="hide2">
+            <br><br>
+            <small>Your character is more than 20</small>
+        </div>
+        <br><br>
+
+        <!-- Email Field -->
+        <input type="email" placeholder="Email" id="mail">
+        
+        <!-- If email is not valid -->
+        <div id="hide3">
+            <br><br>
+            <small>Your email is not valid.</small>
+        </div>
+        <br><br>
+
+        <!-- Password Field -->
+        <input type="password" placeholder="Password" id="password">
+        
+        <!-- If Password is not valid -->
+        <div id="hide4">
+            <br><br>
+            <small>Your password is not valid.</small>
+        </div>
+        <br><br>
+
+        <select>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+        </select>
+        <br><br>
+
+        <textarea placeholder="Tell us about you..."></textarea>
+        <br><br>
+
+        <input type="submit">
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
