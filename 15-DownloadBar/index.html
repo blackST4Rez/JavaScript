@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Download Bar</title>
+    <style>
+        /* ----- reset & base ----- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1c1c1c;
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* ----- card ----- */
+        .card {
+            background: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            border-radius: 28px;
+            padding: 32px 28px 28px;
+            width: min(92%, 480px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+            color: #f0f0e8;
+        }
+
+        /* ----- top row: label + percent ----- */
+        .top-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+            gap: 4px 12px;
+        }
+
+        .top-row .percent {
+            background: #2a3a4a;
+            padding: 0 14px;
+            border-radius: 40px;
+            font-weight: 600;
+            color: #b0e0ff;
+            font-size: 1.5rem;
+            line-height: 1.6;
+            min-width: 68px;
+            text-align: center;
+        }
+
+        /* ----- progress bar ----- */
+        .bar-track {
+            width: 100%;
+            height: 16px;
+            background: #1c1c1c;
+            border-radius: 50px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6);
+        }
+
+        .bar-fill {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(90deg, #4f9fff, #7bc6ff);
+            border-radius: 50px;
+            transition: width 0.15s ease-out;
+        }
+
+        /* ----- bottom meta ----- */
+        .meta {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        .meta span {
+            background: #2e2e2e;
+            padding: 0 16px;
+            border-radius: 30px;
+            color: #ddd;
+        }
+
+        .note {
+            text-align: center;
+            font-size: 0.85rem;
+            color: #7a7a7a;
+            margin-top: 14px;
+            letter-spacing: 0.2px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+
+        <!-- label + percentage -->
+        <div class="top-row">
+            <span id="main-text"> Downloading...</span>
+            <span class="percent" id="percentDisplay">0%</span>
+        </div>
+
+        <!-- progress bar -->
+        <div class="bar-track">
+            <div class="bar-fill" id="progressFill"></div>
+        </div>
+
+        <!-- size / meta -->
+        <div class="meta">
+            <span id="sizeLabel">0.0</span> / 100 MB
+        </div>
+
+        <div class="note">Red Dead Redemption 2</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
