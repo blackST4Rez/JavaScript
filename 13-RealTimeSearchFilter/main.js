@@ -36,8 +36,8 @@ const users = [
     },
 ];
 
-function showUsers(arr) {
-    arr.forEach(function (user) {
+function showUsers(people) {
+    people.forEach(function (user) {
 
         //Create outer card div
         const card = document.createElement('div');
@@ -85,7 +85,7 @@ let inp = document.querySelector('.inp');
 
 inp.addEventListener('input', function () {
     let newUsers = users.filter((user) => {
-        return user.name.startsWith(inp.value);
+        return user.name.toLowerCase().startsWith(inp.value.toLowerCase());
     });
 
     document.querySelector('.cards').innerHTML = '';
