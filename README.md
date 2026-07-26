@@ -41,7 +41,7 @@ JavaScript Recap
 | CSS3             | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)               | Styling & modern layouts (flexbox, grid)      |
 | ES6+             | ![ES6+](https://img.shields.io/badge/ES6+-F7DF1E?style=flat&logo=javascript)                         | Modern syntax used throughout                 |
 | Git & GitHub     | ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)                  | Version control & project sharing             |
-| Browser DevTools | —                                                                             | Debugging, console, network tab, performance  |
+| Browser DevTools | ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=flat&logo=googlechrome&logoColor=white)style=flatlogo=git&                                                                          | Debugging, console, network tab, performance  |
 
 
 <br>
