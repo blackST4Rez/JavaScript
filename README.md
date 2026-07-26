@@ -19,16 +19,16 @@ JavaScript Recap
 
 <br>
 
-## ✨ What I've Learn
+## Topics Covered:
 
-- ✅ JavaScript Fundamentals (variables, loops, functions, conditionals)
-- ⚡ Modern ES6+ features (arrow functions, destructuring, modules, async/await)
-- 🧠 DOM Manipulation & Events — build interactive web pages
-- 🌐 Working with APIs (Fetch, JSON, error handling)
-- 🛠 Real-world Projects (to-do app, weather app, quiz game, expense tracker…)
-- 🔍 Debugging & Developer Tools mastery
-- 🧪 Best practices & clean code principles in 2026
-- 🚀 Bonus: Introduction to TypeScript basics (optional section)
+-  JavaScript Fundamentals (variables, loops, functions, conditionals)
+-  Modern ES6+ features (arrow functions, destructuring, modules, async/await)
+-  DOM Manipulation & Events — build interactive web pages
+-  Working with APIs (Fetch, JSON, error handling)
+-  Real-world Projects (to-do app, weather app, quiz game, expense tracker…)
+-  Debugging & Developer Tools mastery
+-  Best practices & clean code principles in 2026
+
 
 <br>
 
@@ -42,7 +42,7 @@ JavaScript Recap
 | ES6+             | ![ES6+](https://img.shields.io/badge/ES6+-F7DF1E?style=flat&logo=javascript)                         | Modern syntax used throughout                 |
 | Git & GitHub     | ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)                  | Version control & project sharing             |
 | Browser DevTools | —                                                                             | Debugging, console, network tab, performance  |
-| Optional         | ![NPM](https://img.shields.io/badge/NPM-CB3838?style=flat&logo=npm&logoColor=white)                  | Using packages & modules (later sections)     |
+
 
 <br>
 
