@@ -132,61 +132,104 @@
 // console.log(book.name);
 
 // Example 5 - Polymorphism
-class Animal {
+// class Animal {
 
-    speak() {
-        console.log("Animal sound");
+//     speak() {
+//         console.log("Animal sound");
+//     }
+
+// }
+// class Dog extends Animal {
+
+//     speak() {
+//         console.log("Woof!");
+//     }
+
+// }
+
+// class Cat extends Animal {
+
+//     speak() {
+//         console.log("Meow!");
+//     }
+
+// }
+
+
+// const dog = new Dog();
+// const cat = new Cat();
+
+// dog.speak();
+// cat.speak();
+
+// class Notification {
+
+//     send() {
+//         console.log("Sending notification");
+//     }
+
+// }
+
+// class EmailNotification extends Notification {
+
+//     send() {
+//         console.log("Sending Email");
+//     }
+
+// }
+// class SMSNotification extends Notification {
+
+//     send() {
+//         console.log("Sending SMS");
+//     }
+
+// }
+
+// const email = new EmailNotification();
+// const sms = new SMSNotification();
+
+// email.send();
+// sms.send();
+
+// Example 6 - Static Methods
+// class User {
+//     static greet() {
+//         console.log("Hello");
+//     }
+// }
+
+// User.greet();
+
+// Example 7 - Getters & Setters
+
+// Getters
+// class User {
+
+//     constructor(firstName, lastName) {
+//         this.firstName = firstName;
+//         this.lastName = lastName;
+//     }
+
+//     get fullName() {
+//         return `${this.firstName} ${this.lastName}`;
+//     }
+
+// }
+
+// const user = new User("Raka", "Maharjan");
+
+// console.log(user.fullName);
+
+// Setters
+
+// Example 8 - Prototypes
+
+class User {
+    constructor(name) {
+        this.name = name;
     }
 
-}
-class Dog extends Animal {
-
-    speak() {
-        console.log("Woof!");
+    login() {
+        console.log(`${this.name} logged in`);
     }
-
 }
-
-class Cat extends Animal {
-
-    speak() {
-        console.log("Meow!");
-    }
-
-}
-
-
-const dog = new Dog();
-const cat = new Cat();
-
-dog.speak();
-cat.speak();
-
-class Notification {
-
-    send() {
-        console.log("Sending notification");
-    }
-
-}
-
-class EmailNotification extends Notification {
-
-    send() {
-        console.log("Sending Email");
-    }
-
-}
-class SMSNotification extends Notification {
-
-    send() {
-        console.log("Sending SMS");
-    }
-
-}
-
-const email = new EmailNotification();
-const sms = new SMSNotification();
-
-email.send();
-sms.send();
